@@ -140,7 +140,7 @@ espionage_operation_event = {
                     1 = {
                         modifier = {
                             factor = 0
-                            NOT = { is_megacorp = yes }
+                            is_megacorp = no
                         }
                         espionage_smear_campaign_corporate = yes
                     }

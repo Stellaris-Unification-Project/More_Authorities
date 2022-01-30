@@ -41,7 +41,7 @@ country_event = {
 
 	option = {
 		name = galcom.63.B
-		trigger = { NOT = { is_megacorp = yes } }
+		trigger = { is_megacorp = no }
 		custom_tooltip = enable_decision_market_nomination
 	}
 }
@@ -100,7 +100,7 @@ country_event = {
 
 	option = {
 		name = action.96.b
-		trigger = { NOT = { is_megacorp = yes } }
+		trigger = { is_megacorp = no }
 	}
 }
 
@@ -135,7 +135,7 @@ country_event = {
 
 	option = {
 		name = action.96.b
-		trigger = { NOT = { is_megacorp = yes } }
+		trigger = { is_megacorp = no }
 		custom_tooltip = enable_decision_market_nomination
 	}
 }

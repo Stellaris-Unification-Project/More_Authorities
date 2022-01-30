@@ -60,10 +60,7 @@ ship_event = {
 		name = federations2.1.A
 		trigger = {
 			owner = {
-				NOR = {
-					has_ethic = ethic_xenophile
-					has_ethic = ethic_fanatic_xenophile
-				}
+				is_xenophile = no
 			}
 		}
 		owner = {
@@ -77,10 +74,7 @@ ship_event = {
 		name = federations2.1.B
 		trigger = {
 			owner = {
-				OR = {
-					has_ethic = ethic_xenophobe
-					has_ethic = ethic_fanatic_xenophobe
-				}
+				is_xenophobe = yes
 			}
 		}
 		if = {
@@ -114,10 +108,7 @@ ship_event = {
 		name = federations2.1.C
 		trigger = {
 			owner = {
-				NOR = {
-					has_ethic = ethic_xenophobe
-					has_ethic = ethic_fanatic_xenophobe
-				}
+				is_xenophobe = no
 			}
 		}
 		owner = {
@@ -133,10 +124,7 @@ ship_event = {
 		name = federations2.1.D
 		trigger = {
 			owner = {
-				OR = {
-					has_ethic = ethic_xenophile
-					has_ethic = ethic_fanatic_xenophile
-				}
+				is_xenophile = yes
 			}
 		}
 		owner = {

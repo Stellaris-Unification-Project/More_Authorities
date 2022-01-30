@@ -32,7 +32,7 @@ country_event = {
 			limit = {
 				is_active_resolution = "resolution_divinity_a_defined_purpose"
 			}
-			random_country = {
+			random_playable_country = {
 				limit = {
 					is_country_type = default
 					is_synthetic_empire = no
@@ -139,11 +139,9 @@ country_event = {
 			custom_tooltip = {
 				fail_text = federations.10400.comply_fail_ascension
 
-				NOT = {
-					AND = {
-						is_synthetic_empire = yes
-						is_active_resolution = "resolution_divinity_a_defined_purpose"
-					}
+				NAND = {
+					is_synthetic_empire = yes
+					is_active_resolution = "resolution_divinity_a_defined_purpose"
 				}
 			}
 		}
@@ -272,8 +270,7 @@ country_event = {
 			OR = {
 				has_authority = auth_imperial
 				has_authority = auth_corporate_imperial
-				has_ethic = ethic_xenophobe
-				has_ethic = ethic_fanatic_xenophobe
+				is_xenophobe = yes
 				AND = {
 					is_hive_empire = yes
 					NOR = {
